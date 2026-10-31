@@ -1,5 +1,8 @@
 from io import BytesIO
 import os
+from dotenv import load_dotenv
+load_dotenv()
+
 import asyncio
 from gtts import gTTS
 from telegram import Update
