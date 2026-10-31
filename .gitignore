@@ -1,0 +1,31 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Logs y archivos temporales
+*.log
+server.log
+
+# Variables de entorno / secretos
+.env
+*.pem
+*.key
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de audio generados en pruebas (Gradio/Streamlit)
+*.mp3
+
+# Material de la catedra (PDFs de clase) - no publicar en repo publico
+*.pdf
+
